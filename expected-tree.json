@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-11-19T12:00:00+00:00",
+  "pm": "bundler",
+  "pm_version_tested": "2.4",
+  "pm_version_under_test": "2.5.22",
+  "packages": {
+    "diff-lcs": {
+      "dependencies": [],
+      "group": "test",
+      "source": "registry",
+      "version": "1.5.1"
+    },
+    "mustermann": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "3.0.0"
+    },
+    "rack": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "3.1.8"
+    },
+    "rack-protection": {
+      "dependencies": [
+        "rack"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "3.2.0"
+    },
+    "rspec": {
+      "dependencies": [
+        "rspec-core",
+        "rspec-expectations",
+        "rspec-mocks"
+      ],
+      "group": "test",
+      "source": "registry",
+      "version": "3.13.0"
+    },
+    "rspec-core": {
+      "dependencies": [
+        "rspec-support"
+      ],
+      "group": "test",
+      "source": "registry",
+      "version": "3.13.0"
+    },
+    "rspec-expectations": {
+      "dependencies": [
+        "diff-lcs",
+        "rspec-support"
+      ],
+      "group": "test",
+      "source": "registry",
+      "version": "3.13.0"
+    },
+    "rspec-mocks": {
+      "dependencies": [
+        "diff-lcs",
+        "rspec-support"
+      ],
+      "group": "test",
+      "source": "registry",
+      "version": "3.13.0"
+    },
+    "rspec-support": {
+      "dependencies": [],
+      "group": "test",
+      "source": "registry",
+      "version": "3.13.0"
+    },
+    "sinatra": {
+      "dependencies": [
+        "mustermann",
+        "rack",
+        "rack-protection",
+        "tilt"
+      ],
+      "group": "main",
+      "source": "registry",
+      "version": "3.2.0"
+    },
+    "tilt": {
+      "dependencies": [],
+      "group": "main",
+      "source": "registry",
+      "version": "2.3.0"
+    }
+  },
+  "project_metadata": {
+    "bundler_version": "2.5.22",
+    "groups": [
+      "main",
+      "test"
+    ],
+    "ruby_version": "3.3.14"
+  },
+  "root": {
+    "dependencies": [
+      "rack",
+      "rspec",
+      "sinatra"
+    ],
+    "name": "ruby-3.3.14-bundled-bundler-pin",
+    "version": "0.0.0"
+  },
+  "schema_version": "1.2",
+  "source_file": "/opt/qa-detection-agents/output/_call-cd5f76d7660c/bundler/ruby-3.3.14-bundled-bundler-pin-20261119-120000/Gemfile.lock",
+  "warnings": [
+    "bundled_pm_change probe: targets Ruby 3.3.14 / Bundler 2.5.22 (bundled). Expected Mend failure mode: Mend ignores the scanSettings.versioning pin and uses its own bundled/default Bundler version rather than 2.5.22, potentially misresolving deps pinned to this Bundler's behaviour."
+  ]
+}
